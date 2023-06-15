@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="vscworkflows",
-    version="pre-alpha",
+    name="vsc_workflows",
+    version="0.1.0",
     author="Marnik Bercx",
     packages=find_packages(where=".", exclude="docs"),
     install_requires=[
